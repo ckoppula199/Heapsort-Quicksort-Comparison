@@ -174,7 +174,7 @@ public class Main {
         //does 10 runs each on an increasing input size
         for (int i = 0; i < 10; i++) {
             reset(qs, hs);
-            numOfValues += 100;      //increment of 100,000. Can be changed for varying results
+            numOfValues += 100000;      //increment of 100,000. Can be changed for varying results
             System.out.println("Array Size: " + numOfValues);
             inputSize[i] = numOfValues; //adds size to inputSize array in ascending order
             addValues(random, qs, hs, numOfValues);
